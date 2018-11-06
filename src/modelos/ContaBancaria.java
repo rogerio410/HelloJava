@@ -23,9 +23,7 @@ public class ContaBancaria {
     }
 
     public void depositar(double valor){
-        if (valor > 10){
-            this.saldo += valor;
-        }
+        this.saldo += valor;
     }
 
     public boolean sacar(double valor){
@@ -58,10 +56,10 @@ public class ContaBancaria {
 
     @Override
     public String toString() {
-        return "ContaBancaria{" +
+        return "ContaBancaria [" +
                 "numero=" + numero +
                 ", titular='" + titular + '\'' +
                 ", saldo=" + obterSaldo() +
-                '}';
+                ']';
     }
 }
