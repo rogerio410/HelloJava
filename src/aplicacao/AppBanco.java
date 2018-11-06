@@ -3,6 +3,7 @@ package aplicacao;
 import modelos.ContaBancaria;
 import modelos.ContaCorrente;
 
+// JAVA EH PERIGOSO
 public class AppBanco {
 
 //    String teste = "Teste";
