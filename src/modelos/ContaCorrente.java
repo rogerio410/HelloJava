@@ -2,7 +2,6 @@ package modelos;
 
 public class ContaCorrente extends ContaBancaria {
 
-
     private double limite;
 
     public ContaCorrente(String titular, double limite){
